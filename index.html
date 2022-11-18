@@ -5,12 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loops Practice</title>
+    <link rel="stylesheet" href="./index.css" />
+    <!-- Font Awesome links for icons -->
+    <script
+      src="https://kit.fontawesome.com/940af2685d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Loops Practice - With a Timeline!</h1>
-    <img
-      src="./img/timline.jpg"
-      alt="Early 20th Centry Inventions (1900-1949)"
-    />
+    <div id="page-container">
+      <div id="main">
+        <div class="header">
+          <h1>Loops Practice - With a Timeline!</h1>
+          <h3>
+            This is just a static HTML page to show the timeline of inventions
+            mentioned in the last javascript loop in the .js file.
+          </h3>
+        </div>
+        <img
+          src="./img/timline.jpg"
+          alt="Early 20th Centry Inventions (1900-1949)"
+        />
+      </div>
+      <footer id="footer">
+        <p>
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          | Crafted with <i class="fa-solid fa-heart"></i> by DrAcula27 |
+        </p>
+        <a
+          href="https://github.com/DrAcula27"
+          target="_blank"
+          class="footer-link"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <p>|</p>
+        <a
+          href="https://www.linkedin.com/in/daniellerandrews/"
+          target="_blank"
+          class="footer-link"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
