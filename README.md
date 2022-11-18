@@ -12,3 +12,4 @@
   <li>Write a loop with some “if else” statements. The loop should start at 1900 and go to 1949 and log when things were invented. For example when i = 1902 the code should log “it is 1902 - the teddy bear is invented!”</li>
   <li>git add, commit, push.</li>
 </ol>
+<p>I added some HTML and CSS so I could make a GitHub page for this repo.</p>
